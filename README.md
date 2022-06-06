@@ -1,2 +1,1 @@
-# cv
-curriculum-vitae
+TinDog Starting Files
