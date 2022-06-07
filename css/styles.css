@@ -1,11 +1,13 @@
 
 body {
     font-family: "Montserrat";
+    background-color: #fff;
 }
 
 #title {
     background-color: #ff4c68;
     color: #fff;
+    position: relative;
 }
 
 h1 {
@@ -60,6 +62,10 @@ h1 {
 #features {
     text-align: center;
     padding: 7% 7%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    bottom: 250px;
 }
 
 .icon {
@@ -92,6 +98,8 @@ p {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+    position: relative;
+    bottom: 250px;
 }
 
 h2 {
@@ -111,6 +119,8 @@ h2 {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
+    position: relative;
+    bottom: 250px;
 }
 
 .press-logo {
@@ -125,11 +135,59 @@ h2 {
 
 /* Pricing Section */
 #pricing {
-    padding: 100px;
     text-align: center;
+    position: relative;
+    bottom: 125px;
+    padding: 0 100px;
 }
 
 .pricing-col {
     padding: 3% 2%;
 }
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* Footer */
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 10%;
+}
+
+.tag {
+    margin: 0 auto;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #fff;
+    width: 65%;
+    padding: 20px;
+}
+
+.bottom-btn {
+    margin: 15px;
+}
+
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+i {
+    margin: 5px 5px 10px;
+}
+
 
